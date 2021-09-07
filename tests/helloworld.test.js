@@ -9,5 +9,5 @@ test('adds 0 + 0 to equal 0', () => {
 });
 
 test('add 10 + 0 to not equal 11', () => {
-	expect(sum(10, 0)).not.toBe(10);
+	expect(sum(10, 0)).not.toBe(11);
 });
